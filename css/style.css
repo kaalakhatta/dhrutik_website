@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 /* 243fe9 243fe9 */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -1510,3 +1512,19 @@ canvas {
   }
 }
 /* FOOTER END */
+.how-it-started {
+  width: 55%;
+  margin: 3% auto;
+  text-align: center;
+  padding: 20px;
+}
+
+@media(max-width: 767px) {
+  .how-it-started {
+    width: 80%;
+  }
+
+  .how-it-started h1 {
+    font-size: 2.21rem;
+  }
+}
